@@ -17,3 +17,87 @@ h4 {
     margin: 0;
     padding: 10px;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Header Section */
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: black;
+    bottom-border: 1px solid seashell;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+/* Main Section */
+
+.main {
+    padding-top: 69px;
+    opacity: .9;
+    width: 1200px;
+    margin: auto;
+}
+
+/* Mission Section */
+
+#mission {
+    height: 700px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    padding-top: 70px;
+}
+
+#mission .content {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+#store {
+    width: 1000px;
+    height: 700px;
+}
+
+.item {
+    padding: 5px;
+}
+
+.item img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+
+.item span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Location Section */
+
+.flex-container.locations {
+    
+}
